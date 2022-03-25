@@ -9,9 +9,9 @@ public class Point {
         this.coorY = coorY;
     }
 
-    public double distance(Point p1) {
-        return Math.sqrt((this.coorX - p1.coorX) * (this.coorX - p1.coorX) +
-                (this.coorY - p1.coorY) * (this.coorY - p1.coorY));
+    public double distance(Point p) {
+        return Math.sqrt((this.coorX - p.coorX) * (this.coorX - p.coorX) +
+                (this.coorY - p.coorY) * (this.coorY - p.coorY));
     }
 }
 
